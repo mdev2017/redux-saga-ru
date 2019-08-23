@@ -1,6 +1,6 @@
 # 3.12 Использование каналов
 
-Until now we've used the `take` and `put` effects to communicate with the Redux Store. Channels generalize those Effects to communicate with external event sources or between Sagas themselves. They can also be used to queue specific actions from the Store.
+До этого мы использовали эффекты `take` и `put` для взяимодействия с Redux Store. Каналы обобщают эти эффекты до взаимодействия с внешними источниками событий или между самими сагами. Также они могут быть использованы для очереди специфичных действий из Store.
 
 In this section, we'll see:
 
